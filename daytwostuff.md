@@ -24,7 +24,9 @@ title: Day Two Stuff
 2. type the command for creating a virtual environment
 3. make sure the environment is activated
 4. Should you include the environment in your repo or not?  
+# No because Virtual environments are machine-specific so everyone should create their own environment
 5. Now what is your terminal display "path"? Is it different? 
+# it is the same path - /workspaces/daytwostuff so not different 
 
 ### Load/(create if needed) the requirements.txt file
 1. use the correct terminal commands to load the requirements file into your virtual environment
@@ -37,14 +39,17 @@ title: Day Two Stuff
 ### Extension Management
 1. You've possibilly added a new extension, hopefully it was Data Wrangler, if not search and add it
 2. Find the extension in the extension menu. What do you notice about the extension menu? 
+# It shows you when it was last updated, when it was published, the features of the extension, the categories of the extension and its resources. 
 3. Review the capabilities, what are three useful elements of Data Wrangler
+# Spreadsheet-style data viewing, filtering and sorting data, and Data type and cleaning tools
 
 ### Package managing
 1. Install plotly in the terminal
-2. Note the version
+2. Note the version --> Version: 6.5.1
 3. Add plotly to your requirements file using terminal commands
 4. Then update the requirements document
 5. Why do we use a requirements.txt file?
+# We use a requirements.txt file to keep track of the Python packages and versions a project depends on. This allows anyone to recreate the same environment by installing the exact same dependencies. 
 
 ### Pip Freeze/(create if needed) the requirements.txt file
 1. use the correct terminal commands to update your requirements.txt file
@@ -56,6 +61,18 @@ title: Day Two Stuff
 ### Recipe
 1. Write yourself a step by step recipe for creating a new working project environment
     You don't need to include "loading data"
+
+1.Create or open a GitHub repository and open it in VS Code (locally or in a Codespace).
+2.Open a bash terminal in VS Code.
+3.Create a virtual environment using python -m venv venv.
+4.Activate the virtual environment using source venv/bin/activate.
+5.Install required packages using pip install -r requirements.txt
+6.Install necessary VS Code extensions (Python, Jupyter, Data Wrangler).
+7.Select the virtual environment as the Python interpreter or Jupyter kernel.
+8.Create a new Python file and add cell markers (# %%) to enable interactive execution.
+9.Freeze installed packages using pip freeze > requirements.txt.
+10.Add and commit changes to the GitHub repository.
+
 2. Create a new working project environment using these steps. 
 
 ### Submit to canvas

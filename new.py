@@ -4,8 +4,8 @@
 
 # %%
 import pandas as pd
-import pandas as pd
 
-df = pd.read_csv("cows.csv")
-df
+# %%
+df = pd.read_csv("winereviews-DOC_MOD.csv")
+df.head(5)
 # %%
